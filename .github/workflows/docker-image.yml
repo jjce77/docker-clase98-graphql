@@ -36,7 +36,7 @@ jobs:
     - name: Docker-push-image
       run: |
         echo "Iniciando subida repositorio docker hub"
-        docker push jjce/docker-graphql:0.0.2 .
+        docker push jjce/docker-graphql:0.0.2
         echo "Finalizando  subida repositorio docker hub"
     # - name: Build the Docker image
     #   run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
